@@ -8,10 +8,10 @@ export default function Footer() {
     return (
         <nav>
             <div>
-                <img src={FacebookLogo} />
-                <img src={InsLogo} />
-                <img src={LinkedinLogo} />
-                <img src={GitLogo} />      
+                <a href="https://www.facebook.com/malanie.chan/"><img src={FacebookLogo} /></a>
+                <a href="https://www.instagram.com/min_chen_2/"><img src={InsLogo} /></a>
+                <a href="https://www.linkedin.com/in/min-chen-2289a8b8/"><img src={LinkedinLogo} /></a>
+                <a href="https://github.com/chen3yym/"><img src={GitLogo} /></a>  
             </div>     
         </nav>
     )

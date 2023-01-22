@@ -1,11 +1,18 @@
 import React from "react";
 import EmailLogo from "../images/mail.svg"
-import './ContactButton.css'
+
 
 
 export default function ContactButton() {
-    (   
-        <button>Email</button>
+    return (
+        <div className="div--button">  
+            <button>
+                <div>
+                    <img src={EmailLogo} />
+                    <h3 className="button--email"><a href="mailto:mchen26lsu@gmail.com" className="email--link">Email</a></h3>
+                </div>
+            </button>
+        </div> 
     )
 
 }
