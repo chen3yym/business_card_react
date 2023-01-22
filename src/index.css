@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -67,4 +67,35 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+.main--layout {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1A1B21;
+  color: white;
+
+}
+.main-intro {
+  padding: 10px;
+}
+
+.main-name {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main--photo {
+  width: inherit;
+}
+
+.div--layout {
+  background-color: #23252C;
+}
+
+button {
+  background-color: aliceblue;
 }

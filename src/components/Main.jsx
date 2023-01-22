@@ -1,15 +1,20 @@
 import React from "react";
 import Photo  from '../images/self_photo.jpg'
-
-
+import Email from "./Email";
+import Footer from "./Footer";
 export default function Main() {
     return (
-        <main>
+        <main className="main--layout">
             <img src={Photo} className="main--photo" />
-            <h1 className="main--name">Min Chen</h1>
-            <h2 className="main--position">Software Developer</h2>
-            <h2 className="main-pofolio"></h2>
-            <button className="main-email"></button>
+            <div className="main-intro" >
+
+                <h1 className="main--name">Min Chen</h1>
+                <h2 className="main--position">Software Developer</h2>
+                <h2 className="main-pofolio"></h2>
+                <button>Email</button>
+            </div>
+            
+          
             <h1>About</h1>
             <h3>
                 I am a frontend Developer with particular interest in
@@ -19,7 +24,8 @@ export default function Main() {
             <h1>Interests</h1>
             <h3>
                 Coffee fanatic. Reader. Piano player. Music scholar. 
-            </h3>
+            </h3> 
+            <Footer />
         </main>
     )
 }
